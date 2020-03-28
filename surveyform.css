@@ -1,0 +1,38 @@
+body {
+  /* background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg"); */
+  background-color: #ff6c5c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.3rem;
+}
+
+main {
+  background-color: #ff955c;
+  width: 500px;
+  margin: 10px auto;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+
+  border-radius: 1%;
+
+  
+}
+
+div {
+  background-color: #ff5c8a;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 1.5%;
+  color: white;
+
+}
+
+#name, #email, #age {
+  box-sizing: border-box;
+  width: 50%;
+  justify-content: center;
+}
